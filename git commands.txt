@@ -1,0 +1,232 @@
+¡­or create a new repository on the command line
+echo "# StudyReops" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/JERRYZFC/StudyReops.git
+git push -u origin master
+¡­or push an existing repository from the command line
+git remote add origin https://github.com/JERRYZFC/StudyReops.git
+git push -u origin master
+¡­or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+git config --global user.name "Your Name"
+
+git config --global user.email "email@example.com"
+
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop
+$ git config --global user.name JERRYZFC
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop
+$ git config --global user.email "shrl007@163.com"
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop
+$ $ ssh-keygen -t rsa -C "shrl007@163.com"
+bash: $: command not found
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop
+$ ssh-keygen -t rsa -C "shrl007@163.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/lenovo/.ssh/id_rsa):
+Created directory '/c/Users/lenovo/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/lenovo/.ssh/id_rsa.
+Your public key has been saved in /c/Users/lenovo/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Z4oezr/6S/AADDqjH7Go28u3uQDZwYqSSI0Cde2SYUY shrl007@163.com
+The key's randomart image is:
++---[RSA 2048]----+
+|..o.E.           |
+|.oo++ .          |
+|=o++o+           |
+|*O +o..          |
+|@ +  .o S o      |
+|oo .   = +       |
+|. o   o +        |
+| + ..= o         |
+|. +o+o=+=o       |
++----[SHA256]-----+
+
+ZFC00086zfc
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/lenovo/Desktop/StudyReops/.git/
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ touch README.md
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git add README.md
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git commit -m 'first_commit'
+[master (root-commit) 6b57cec] first_commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git remote add origin https://github.com/JERRYZFC/StudyReops.git
+fatal: remote origin already exists.
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git push origin master
+fatal: TaskCanceledException encountered.
+   ????????????
+Username for 'https://github.com': shrl007@163.com
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 213 bytes | 213.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/JERRYZFC/StudyReops.git
+ * [new branch]      master -> master
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git add .
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git commit -m 'add some img'
+[master 1ec90f2] add some img
+ 9 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 bimg img/CachedImage_1920_1080_POS4.jpg
+ create mode 100644 bimg img/FR_Back_Landscape_Med_1920x1080.jpg
+ create mode 100644 "bimg img/GordesLavender_ZH-CN8649239515_1920x1080 2018\345\271\2647\346\234\21012\346\227\24508.jpg"
+ create mode 100644 bimg img/LockScreen___1920_1080_notdimmed.jpg
+ create mode 100644 bimg img/PhotosInking_GettyImages-543345687_1920x1080.jpg
+ create mode 100644 bimg img/PuffinWales_ZH-CN12110916089_1920x1080.jpg
+ create mode 100644 bimg img/googlelogo_color_272x92dp.png
+ create mode 100644 bimg img/rh_ab_36692604_224396778194048_2660313394661294080_n.jpg
+ create mode 100644 "bimg img/zhenghe_ZH-CN9628081460_1920x1080 2018\345\271\2647\346\234\21011\346\227\245.jpg"
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git remote add origin https://github.com/JERRYZFC/StudyReops.git
+fatal: remote origin already exists.
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git remove rm origin
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git remote rm origin
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git pull origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git commit -m "Hello first upload"
+On branch master
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git add .
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git commit -m "fak fl"
+On branch master
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ ls
+'bimg img'/   README.md
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git  status
+On branch master
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git add -A
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git commit -m "fak fl"
+On branch master
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git remote add studyReops https://github.com/JERRYZFC/StudyReops
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git push studyReops
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream studyReops master
+
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$  git push --set-upstream studyReops master
+fatal: TaskCanceledException encountered.
+   ????????????
+Username for 'https://github.com': shrl007@163.com
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 3.84 MiB | 20.00 KiB/s, done.
+Total 12 (delta 0), reused 0 (delta 0)
+To https://github.com/JERRYZFC/StudyReops
+   6b57cec..1ec90f2  master -> master
+Branch 'master' set up to track remote branch 'master' from 'studyReops'.
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git add .
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git commit -m "add book"
+[master 9dab490] add book
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git - the simple guide - no deep shit!.pdf
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git push StudyReops
+fatal: 'StudyReops' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$ git push studyReops
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 479.02 KiB | 20.83 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/JERRYZFC/StudyReops
+   1ec90f2..9dab490  master -> master
+
+lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+$
