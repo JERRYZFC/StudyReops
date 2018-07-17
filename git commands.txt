@@ -202,31 +202,12 @@ lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
 $
 
 lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
+
 $ git add .
+ 
+$ git commit -m "add book" 
+ 
+$ git push  
+ 
 
-lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
-$ git commit -m "add book"
-[master 9dab490] add book
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 git - the simple guide - no deep shit!.pdf
-
-lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
-$ git push StudyReops
-fatal: 'StudyReops' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-
-lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
-$ git push studyReops
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 479.02 KiB | 20.83 MiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/JERRYZFC/StudyReops
-   1ec90f2..9dab490  master -> master
-
-lenovo@DESKTOP-76E6TQV MINGW64 ~/Desktop/StudyReops (master)
-$
+https://gitlab.ceei.com/zengfanchao/doc_to_learn.git
